@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+
 	$('#albums a').on('click', function(e) {
 		var target = $(this);
 		var targetName = target.attr('href');
@@ -14,5 +15,12 @@ $(document).ready(function () {
 		$($(this).attr('href')).show();
 
 	});
+	
+	$('h1').on('click', function(e) {
+			$('#side-nav').hide(); 
+			$('.album').hide();
+			$('#albums').show();
+		});
+
 
 });
