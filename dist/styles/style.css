@@ -1,0 +1,41 @@
+.header {
+	text-align: center;
+	clear: both;
+	margin-bottom: 2em;
+}
+
+h3 {
+	text-align: center;
+}
+
+.album1-photos {
+	/*display: none;*/
+}
+
+#album2-photos {
+	display: none;
+}
+
+h4 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+#album3-photos {
+	display: none;
+}
+
+#album4-photos {
+	display: none;
+}
+
+#album5-photos {
+	display: none;
+}
+
+#album6-photos {
+	display: none;
+}
+
+
+
